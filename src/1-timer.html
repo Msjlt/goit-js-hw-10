@@ -8,10 +8,38 @@
     <link rel="stylesheet" href="./css/1-timer.css" />
   </head>
   <body>
+    <!-- Navigation -->
+
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to page 2</h1>
     </section>
+
+    <!-- Code from hw -->
+
+    <input type="text" id="datetime-picker" />
+    <button type="button" id="start-btn" data-start>Start</button>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" id="days">00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" id="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" id="minutes">00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" id="seconds">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    <!-- JS -->
 
     <script type="module" src="./js/1-timer.js"></script>
   </body>

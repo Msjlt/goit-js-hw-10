@@ -8,12 +8,43 @@
     
     <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/1-timer-3b4decfc.css">
   </head>
   <body>
+    <!-- Navigation -->
+
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to page 2</h1>
     </section>
+
+    <!-- Code from hw -->
+
+    <input type="text" id="datetime-picker" />
+    <button type="button" id="start-btn" data-start>Start</button>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" id="days">00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" id="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" id="minutes">00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" id="seconds">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    <!-- JS -->
 
     
   </body>
